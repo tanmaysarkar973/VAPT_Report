@@ -1,0 +1,18 @@
+# Nmap 7.98 scan initiated Thu Oct  1 19:57:42 2026 as: /usr/lib/nmap/nmap -A -oN /home/tanmay/Week-5-VAPT/Nmap/aggressive-scan.txt testphp.vulnweb.com
+Nmap scan report for testphp.vulnweb.com (44.228.249.3)
+Host is up (0.00030s latency).
+rDNS record for 44.228.249.3: ec2-44-228-249-3.us-west-2.compute.amazonaws.com
+All 1000 scanned ports on testphp.vulnweb.com (44.228.249.3) are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: D-Link DFL-700 firewall (89%), HP Officejet Pro 8500 printer (89%), IBM i 7.4 (89%), ReactOS 0.3.7 (89%), Sanyo PLC-XU88 digital video projector (89%), Sonus GSX9000 VoIP proxy (88%), Asus WL-500gP wireless broadband router (88%), Microsoft Windows 2000 (88%), Microsoft Windows Server 2003 Enterprise Edition SP2 (88%), Microsoft Windows Server 2003 SP2 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT     ADDRESS
+1   0.28 ms 192.168.86.2
+2   0.31 ms ec2-44-228-249-3.us-west-2.compute.amazonaws.com (44.228.249.3)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Oct  1 19:58:45 2026 -- 1 IP address (1 host up) scanned in 64.21 seconds
